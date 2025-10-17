@@ -69,6 +69,12 @@ Then, to install a specific set of skills:
 3. Select `document-skills` or `example-skills`
 4. Select `Install now`
 
+Alternatively, directly install either Plugin via:
+```
+/plugin install document-skills@anthropic-agent-skills
+/plugin install example-skills@anthropic-agent-skills
+```
+
 After installing the plugin, you can use the skill by just mentioning it. For instance, if you install the `document-skills` plugin from the marketplace, you can ask Claude Code to do something like: "Use the PDF skill to extract the form fields from path/to/some-file.pdf"
 
 ## Claude.ai
